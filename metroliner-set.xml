@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <PropertyList include="metroliner-jsbsim-cnf.xml"> -->
+<PropertyList include="metroliner-yasim-cnf.xml">
+
+  <sim>
+    <description>Fairchild Metroliner</description>
+    <author>BARANGER Emmanuel</author>
+  </sim>
+
+</PropertyList>
+

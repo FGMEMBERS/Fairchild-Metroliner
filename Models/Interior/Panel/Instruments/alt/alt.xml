@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <path>alt.ac</path>
+
+  <animation>
+    <object-name>alt.fond</object-name>
+    <object-name>alt.knob</object-name>
+    <object-name>alt.face</object-name>
+    <object-name>alt.kpa01</object-name>
+    <object-name>alt.kpa02</object-name>
+    <object-name>alt.kpa03</object-name>
+    <object-name>alt.kpa04</object-name>
+    <object-name>alt.inhg01</object-name>
+    <object-name>alt.inhg02</object-name>
+    <object-name>alt.inhg03</object-name>
+    <object-name>alt.inhg04</object-name>
+    <object-name>alt.10000</object-name>
+    <object-name>alt.1000</object-name>
+    <object-name>alt.neg</object-name>
+    <object-name>alt.needle</object-name>
+    <object-name>alt.100</object-name>
+    <object-name>alt.10</object-name>
+    <object-name>alt.button</object-name>
+
+    <object-name>alt.vitre</object-name>
+  </animation>
+
+  <animation>
+    <type>noshadow</type>
+    <object-name>alt.vitre</object-name>
+  </animation>
+
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+    <object-name>alt.vitre</object-name>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>alt.face</object-name>
+    <object-name>alt.kpa01</object-name>
+    <object-name>alt.kpa02</object-name>
+    <object-name>alt.kpa03</object-name>
+    <object-name>alt.kpa04</object-name>
+    <object-name>alt.inhg01</object-name>
+    <object-name>alt.inhg02</object-name>
+    <object-name>alt.inhg03</object-name>
+    <object-name>alt.inhg04</object-name>
+    <object-name>alt.10000</object-name>
+    <object-name>alt.1000</object-name>
+    <object-name>alt.neg</object-name>
+    <object-name>alt.needle</object-name>
+    <object-name>alt.100</object-name>
+    <object-name>alt.10</object-name>
+    <emission>
+      <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
+      <red>   0.50 </red>
+      <green> 0.25 </green>
+      <blue>  0.25 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>alt.neg</object-name>
+      <condition>
+        <less-than>
+        <property>instrumentation/altimeter/indicated-altitude-ft</property>
+        <value>0</value>
+      </less-than>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>alt.10000</object-name>
+    <condition>
+      <greater-than>
+        <property>instrumentation/altimeter/indicated-altitude-ft</property>
+        <value>9999.999</value>
+      </greater-than>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>alt.needle</object-name>
+    <property>instrumentation/altimeter/indicated-altitude-ft</property>
+    <factor> 0.36 </factor>
+    <axis>
+      <x> -1 </x>
+      <y>  0 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>textranslate</type>
+    <object-name>alt.10</object-name>
+    <property>instrumentation/altimeter/indicated-altitude-ft</property>
+    <factor> 0.01 </factor>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>textranslate</type>
+    <object-name>alt.100</object-name>
+    <property>instrumentation/altimeter/indicated-altitude-ft</property>
+    <factor>0.001</factor>
+    <step>100</step>
+    <scroll> 10 </scroll>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>textranslate</type>
+    <object-name>alt.1000</object-name>
+    <property>instrumentation/altimeter/indicated-altitude-ft</property>
+    <factor>0.0001</factor>
+    <step>1000</step>
+    <scroll> 10 </scroll>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>textranslate</type>
+    <object-name>alt.10000</object-name>
+    <property>instrumentation/altimeter/indicated-altitude-ft</property>
+    <factor>0.00001</factor>
+    <step>10000</step>
+    <scroll> 10 </scroll>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>textranslate</type>
+    <object-name>alt.inhg01</object-name>
+    <property>instrumentation/altimeter/setting-inhg</property>
+    <factor>0.01</factor>
+    <step> 10 </step>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>textranslate</type>
+    <object-name>alt.inhg02</object-name>
+    <property>instrumentation/altimeter/setting-inhg</property>
+    <factor>0.1</factor>
+    <step> 1 </step>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>textranslate</type>
+    <object-name>alt.inhg03</object-name>
+    <property>instrumentation/altimeter/setting-inhg</property>
+    <factor>1.0</factor>
+    <step> 0.1 </step>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+     </axis>
+  </animation>
+
+  <animation>
+    <type>textranslate</type>
+    <object-name>alt.inhg04</object-name>
+    <property>instrumentation/altimeter/setting-inhg</property>
+    <factor>10.0</factor>
+    <step> 0.01 </step>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>textranslate</type>
+    <object-name>alt.kpa01</object-name>
+    <property>instrumentation/altimeter/setting-kpa</property>
+    <factor>0.001</factor>
+    <step> 100 </step>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>textranslate</type>
+    <object-name>alt.kpa02</object-name>
+    <property>instrumentation/altimeter/setting-kpa</property>
+    <factor>0.01</factor>
+    <step> 10 </step>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>textranslate</type>
+    <object-name>alt.kpa03</object-name>
+    <property>instrumentation/altimeter/setting-kpa</property>
+    <factor>0.1</factor>
+    <step> 1 </step>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>textranslate</type>
+    <object-name>alt.kpa04</object-name>
+    <property>instrumentation/altimeter/setting-kpa</property>
+    <factor>1.0</factor>
+    <step> 0.1 </step>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <!--  Hotspots -->
+  <animation>
+    <type>pick</type>
+    <object-name>alt.knob</object-name>
+    <action>
+      <button>0</button>
+      <repeatable>true</repeatable>
+      <interval-sec> 0.2 </interval-sec>
+      <binding>
+        <command>property-adjust</command>
+        <property>instrumentation/altimeter/setting-inhg</property>
+        <step>  0.01 </step>
+        <min>  26.00 </min>
+        <max>  31.00 </max>
+        <wrap> false </wrap>
+      </binding>
+    </action>
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <object-name>alt.knob</object-name>
+    <action>
+      <button>1</button>
+      <repeatable>true</repeatable>
+      <interval-sec>0.2</interval-sec>
+      <binding>
+        <command>property-adjust</command>
+        <property>instrumentation/altimeter/setting-inhg</property>
+        <step> -0.01 </step>
+        <min>  26.00 </min>
+        <max>  31.00 </max>
+        <wrap> false </wrap>
+      </binding>
+    </action>
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <object-name>alt.knob</object-name>
+    <action>
+      <button>3</button>
+      <binding>
+        <command>property-adjust</command>
+        <property>instrumentation/altimeter/setting-inhg</property>
+        <step>  0.01 </step>
+        <min>  26.00 </min>
+        <max>  31.00 </max>
+        <wrap> false </wrap>
+      </binding>
+    </action>
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <object-name>alt.knob</object-name>
+    <action>
+      <button>4</button>
+      <binding>
+        <command>property-adjust</command>
+        <property>instrumentation/altimeter/setting-inhg</property>
+        <step>-0.01</step>
+        <min>26.0</min>
+        <max>31.0</max>
+        <wrap>false</wrap>
+      </binding>
+    </action>
+  </animation>
+
+</PropertyList>
+

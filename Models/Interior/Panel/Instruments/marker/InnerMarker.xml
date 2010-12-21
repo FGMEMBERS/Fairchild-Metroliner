@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+  
+  <params>
+    <value>instrumentation/marker-beacon/inner</value>
+    <test>instrumentation/marker-beacon[0]/inner-light-test</test>
+  </params>
+  
+  <path>ControlLight-White.ac</path>
+
+  <animation include="ControlLightLightSelectAnimation.xml"/>
+  <animation include="ControlLightPickAnimation.xml"/>
+  <animation include="ControlLightTranslateAnimation.xml"/>
+
+</PropertyList>

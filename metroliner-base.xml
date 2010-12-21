@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+************************************************************************
+
+************************************************************************
+-->
+
+<PropertyList>
+
+  <sim include="Nasal/views.xml">
+
+    <author>BARANGER Emmanuel (3D/FDM)</author>
+    <aircraft-version>0.1</aircraft-version>
+    <status>Alpha</status>
+   
+    <fuel-fraction>1.0</fuel-fraction>
+  
+    <startup>
+      <splash-texture>Aircraft/Fairchild-Metroliner/metroliner-splash.png</splash-texture>
+    </startup>
+
+    <sound>
+      <path>Aircraft/Fairchild-Metroliner/Sounds/metroliner-sound.xml</path>
+    </sound>
+
+    <model>
+      <path>Aircraft/Fairchild-Metroliner/Models/metroliner.xml</path>
+      <livery>
+        <file type="string">default</file>
+      </livery>
+    </model> 
+
+    <multiplay>
+      <chat_display>1</chat_display>
+      <generic>
+        <int type="int" n="0">0</int>
+        <int type="int" n="1">0</int>
+        <int type="int" n="2">0</int>
+        <int type="int" n="3">0</int>
+        <int type="int" n="4">0</int>
+        <int type="int" n="5">0</int>
+        <float n="0" alias="/instrumentation/doors/crew/position-norm"/>
+        <float n="1" alias="/instrumentation/doors/passenger/position-norm"/>
+      </generic>
+    </multiplay>
+
+    <help>
+      <title>Fairchild Metroline</title>
+      <key>
+        <name>d</name>
+        <desc>Open/Close crew door</desc>
+      </key>
+      <key>
+        <name>D</name>
+        <desc>Open/Close cargo door</desc>
+      </key>
+    </help>
+
+    <menubar include="Dialogs/metroliner-menu.xml"/>
+
+  </sim>
+
+  <input>
+    <keyboard include="Nasal/metroliner-keyboard.xml"/>
+  </input>
+ 
+  <controls>
+    <engines>
+      <engine n="0">
+        <magnetos>3</magnetos>
+      </engine>
+      <engine n="1">
+        <magnetos>3</magnetos>
+      </engine>
+    </engines>
+    <gear>
+      <brake-parking>1</brake-parking>
+      <tailwheel-lock type="bool">false</tailwheel-lock>
+    </gear>
+  </controls>
+
+  <engines>
+    <engine>
+      <rpm type="double">700</rpm>
+    </engine>
+    <engine>
+      <rpm type="double">700</rpm>
+    </engine>
+  </engines>
+  
+  <nasal>
+    <doors>
+      <file>Aircraft/Fairchild-Metroliner/Nasal/doors.nas</file>
+    </doors>
+    <metroliner>
+      <file>Aircraft/Fairchild-Metroliner/Nasal/liveries.nas</file>
+      <file>Aircraft/Fairchild-Metroliner/Nasal/light.nas</file>
+    </metroliner>
+<!--
+    <kfc200>
+      <file>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/kfc200/kfc-200.nas</file>
+    </kfc200>
+-->
+  </nasal>
+
+</PropertyList>
+
