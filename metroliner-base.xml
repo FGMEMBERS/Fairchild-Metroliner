@@ -65,6 +65,9 @@
   </input>
  
   <controls>
+    <flight>
+      <elevator-trim>-0.15</elevator-trim>
+    </flight>
     <engines>
       <engine n="0">
         <magnetos>3</magnetos>
