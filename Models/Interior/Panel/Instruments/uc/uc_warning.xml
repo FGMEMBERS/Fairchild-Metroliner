@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <path>uc_warning.ac</path>
+
+  <animation>
+    <object-name>fond</object-name>
+    <object-name>visses</object-name>
+    <object-name>body</object-name>
+    <object-name>light</object-name>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>light</object-name>
+    <emission>
+      <red>   2 </red>
+      <green> 2 </green>
+      <blue>  2 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>light</object-name>
+    <condition>
+      <less-than>
+        <property>position/altitude-agl-ft</property>
+        <value>200</value>
+      </less-than>
+      <equals>
+        <property>gear/gear[0]/position-norm</property>
+        <value>0</value>
+      </equals>
+    </condition>
+  </animation>
+
+</PropertyList>

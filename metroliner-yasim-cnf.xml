@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+************************************************************************
+Fairchild Metroliner
+December 2010 BARANGER Emmanuel
+************************************************************************
+-->
+
+<PropertyList include="metroliner-base.xml">
+
+  <sim>
+
+    <description>Fairchild Metroline (YASim)</description>
+    <flight-model>yasim</flight-model>
+    <aero>metroliner-yasim</aero>
+
+  </sim>
+    
+</PropertyList>

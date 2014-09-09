@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<!--
+  $Id: gps155.xml,v 1.1 2008/08/21 11:15:47 torsten Exp $
+  Garmin GPS155 3d model
+   Texture image is (c) Garmin (www.garmin.com)
+    
+   Maintainer: Torsten Dreyer ( Torsten at t3r dot de)
+    
+  $Log: gps155.xml,v $
+  Revision 1.1  2008/08/21 11:15:47  torsten
+  Added gps155 and gtx330 - nonfunctional
+
+-->
+<PropertyList>
+  <path>gps155.ac</path>
+
+  <animation>
+    <type>noshadow</type>
+  </animation>
+  <animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-m>10</max-m>
+  </animation>
+  
+  
+  <panel>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/garmin/GNX-panel.xml</path>
+    <bottom-left>
+      <x-m>  0.002 </x-m>
+      <y-m> -0.040 </y-m>
+      <z-m> -0.018 </z-m>
+    </bottom-left>
+    <bottom-right>
+      <x-m>  0.002 </x-m>
+      <y-m>  0.022 </y-m>
+      <z-m> -0.018 </z-m>
+    </bottom-right>
+    <top-left>
+      <x-m>  0.002 </x-m>
+      <y-m> -0.039 </y-m>
+      <z-m>  0.043 </z-m>
+    </top-left>
+  </panel>
+  
+    <panel>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/garmin/GNX-panel2.xml</path>
+    <bottom-left>
+      <x-m>  0.002 </x-m>
+      <y-m> 0.022 </y-m>
+      <z-m> -0.018 </z-m>
+    </bottom-left>
+    <bottom-right>
+      <x-m>  0.002 </x-m>
+      <y-m>  0.088 </y-m>
+      <z-m> -0.018 </z-m>
+    </bottom-right>
+    <top-left>
+      <x-m>  0.002 </x-m>
+      <y-m> 0.022 </y-m>
+      <z-m>  0.043 </z-m>
+    </top-left>
+  </panel>
+
+  <animation>
+    <type>material</type>
+    <object-name>gma340.Chassis</object-name>
+
+    <emission>
+      <red>0.05</red>
+      <green>0.1.</green>
+      <blue>0.05</blue>
+      <factor-prop>/controls/lighting/instruments-norm</factor-prop>
+    </emission>
+  </animation>
+
+</PropertyList>

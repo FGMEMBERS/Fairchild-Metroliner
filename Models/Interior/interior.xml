@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <path>interior.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>interieur</object-name>
+    <object-name>intparbrise</object-name>
+    <object-name>inttour</object-name>
+    <object-name>intporte</object-name>
+    <object-name>intcargo</object-name>
+    <object-name>planchet</object-name>
+    <object-name>cloison</object-name>
+
+    <!-- Objets transparents -->
+    <object-name>intvitres</object-name>
+  </animation>
+
+  <animation>
+    <type>noshadow</type>
+    <object-name>intvitres</object-name>
+  </animation>
+
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+    <object-name>intvitres</object-name>
+  </animation>
+
+  <!-- Pilote -->
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Pilot/pilot.xml</path>
+    <offsets>
+      <x-m> -5.501 </x-m>
+      <y-m> -0.464 </y-m>
+      <z-m> -0.209 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+  
+    <!-- Co-Pilote -->
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Pilot/copilot.xml</path>
+    <offsets>
+      <x-m> -5.501 </x-m>
+      <y-m>  0.464 </y-m>
+      <z-m> -0.209 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- Tout les sièges -->
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Seat/allseats.xml</path>
+    <offsets>
+      <x-m> 0 </x-m>
+      <y-m> 0 </y-m>
+      <z-m> 0 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Planche de bord -->
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/panel.xml</path>
+    <offsets>
+      <x-m> -6.196 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.127 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Porte avion -->
+  <animation>
+    <type>rotate</type>
+    <object-name>intporte</object-name>
+    <property>instrumentation/doors/crew/position-norm</property>
+    <factor> 145 </factor>
+    <center>
+      <x-m> -4.513 </x-m>
+      <y-m> -0.720 </y-m>
+      <z-m> -1.276 </z-m>
+    </center>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <!-- Porte cargo -->
+  <animation>
+    <type>rotate</type>
+    <object-name>intcargo</object-name>
+    <property>instrumentation/doors/passenger/position-norm</property>
+    <factor> -85 </factor>
+    <center>
+      <x-m>  3.438 </x-m>
+      <y-m> -0.530 </y-m>
+      <z-m>  0.530 </z-m>
+    </center>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+</PropertyList>
+
