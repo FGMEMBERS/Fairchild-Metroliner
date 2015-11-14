@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList>
 
@@ -18,18 +18,12 @@
     <object-name>intvitres</object-name>
   </animation>
 
-  <animation>
-    <type>noshadow</type>
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/Fairchild-Metroliner/Models/Effects/Glass/glass</inherits-from>
     <object-name>intvitres</object-name>
-  </animation>
-
-  <animation>
-    <type>shader</type>
-    <shader>chrome</shader>
-    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
-    <object-name>intvitres</object-name>
-  </animation>
-
+  </effect>
+  
   <!-- Pilote -->
   <model>
     <path>Aircraft/Fairchild-Metroliner/Models/Pilot/pilot.xml</path>
@@ -37,9 +31,6 @@
       <x-m> -5.501 </x-m>
       <y-m> -0.464 </y-m>
       <z-m> -0.209 </z-m>
-      <roll-deg>    0 </roll-deg>
-      <pitch-deg>   0 </pitch-deg>
-      <heading-deg> 0 </heading-deg>
     </offsets>
   </model>
   
@@ -50,20 +41,12 @@
       <x-m> -5.501 </x-m>
       <y-m>  0.464 </y-m>
       <z-m> -0.209 </z-m>
-      <roll-deg>    0 </roll-deg>
-      <pitch-deg>   0 </pitch-deg>
-      <heading-deg> 0 </heading-deg>
     </offsets>
   </model>
 
   <!-- Tout les sièges -->
   <model>
     <path>Aircraft/Fairchild-Metroliner/Models/Interior/Seat/allseats.xml</path>
-    <offsets>
-      <x-m> 0 </x-m>
-      <y-m> 0 </y-m>
-      <z-m> 0 </z-m>
-    </offsets>
   </model>
   
   <!-- Planche de bord -->
@@ -78,9 +61,23 @@
 
   <!-- Porte avion -->
   <animation>
+    <type>pick</type>
+    <object-name>intporte</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.crew.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
     <type>rotate</type>
     <object-name>intporte</object-name>
-    <property>instrumentation/doors/crew/position-norm</property>
+    <property>sim/model/door-positions/crew/position-norm</property>
     <factor> 145 </factor>
     <center>
       <x-m> -4.513 </x-m>
@@ -96,9 +93,23 @@
 
   <!-- Porte cargo -->
   <animation>
+    <type>pick</type>
+    <object-name>intcargo</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.passenger.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
     <type>rotate</type>
     <object-name>intcargo</object-name>
-    <property>instrumentation/doors/passenger/position-norm</property>
+    <property>sim/model/door-positions/passenger/position-norm</property>
     <factor> -85 </factor>
     <center>
       <x-m>  3.438 </x-m>
@@ -113,4 +124,3 @@
   </animation>
 
 </PropertyList>
-

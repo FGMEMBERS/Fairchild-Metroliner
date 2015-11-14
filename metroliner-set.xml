@@ -1,12 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
-<!-- <PropertyList include="metroliner-jsbsim-cnf.xml"> -->
-<PropertyList include="metroliner-yasim-cnf.xml">
+<PropertyList include="metroliner-base.xml">
 
   <sim>
-    <description>Fairchild Metroliner</description>
-    <author>BARANGER Emmanuel</author>
+    
+    <description>Fairchild Metroliner (YASim)</description>
+    <author>BARANGER Emmanuel (3D/FDM)</author>
+    <aircraft-version>0.2</aircraft-version>
+    <status>Alpha</status>
+    
+    <flight-model>yasim</flight-model>
+    <aero>metroliner-yasim</aero>
+    
+    <rating>
+      <FDM type="int">     2 </FDM>
+      <systems type="int"> 1 </systems>
+      <cockpit type="int"> 3 </cockpit>
+      <model type="int">   4 </model>
+    </rating>
+    
   </sim>
 
 </PropertyList>
-

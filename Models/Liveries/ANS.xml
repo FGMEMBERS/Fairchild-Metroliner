@@ -6,8 +6,8 @@
     
     <model>
       <livery>
-        <name type="string">American Eagle</name>
-        <texture>Liveries/1024x1024/AAL.png</texture>
+        <name type="string">Andes Líneas Aéreas</name>
+        <texture>Liveries/2048x2048/ANS.png</texture>
         <specular>
           <red>   0 </red>
           <green> 0 </green>

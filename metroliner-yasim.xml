@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
 <!-- Fairchild Metroliner : 2010 BARANGER Emmanuel
                   updated : 2011 Skyop
+                  updated : 2015 BARANGER Emmanuel
 
      Source       : http://en.wikipedia.org/wiki/Fairchild_Swearingen_Metroliner
 
@@ -14,9 +15,9 @@
      Cruise speed :     278 kt ( 515 km/h)
 -->
 
-<airplane mass="8737">
+<airplane mass="8737" version="YASIM_VERSION_CURRENT">
 
-  <approach speed="90" aoa="6">
+  <approach speed="90" aoa="4" fuel="0.4">
     <control-setting axis="/controls/engines/engine[0]/throttle" value="0.4"/>
     <control-setting axis="/controls/engines/engine[0]/condition" value="1"/>
     <control-setting axis="/controls/engines/engine[0]/propeller-pitch" value="1"/>
@@ -55,12 +56,12 @@
         length="7.917" 
         taper="0.45"
         dihedral="6" 
+        incidence="3"
         sweep="-2"
-        camber="0.001"
-        incidence="3.0">
-        <stall aoa="16" width="1" peak="1.4"/>
-        <flap0 start="0.048" end="0.574" lift="1.4" drag="1.4"/>
-        <flap1 start="0.574" end="0.962" lift="1.2" drag="1.2"/>
+        camber="0.001">
+        <stall aoa="18" width="1" peak="1.5"/>
+        <flap0 start="0.048" end="0.574" lift="1.4" drag="1.5"/>
+        <flap1 start="0.574" end="0.962" lift="1.2" drag="1.1"/>
 
         <control-input axis="/controls/flight/flaps" control="FLAP0"/>
         <control-input axis="/controls/flight/aileron" control="FLAP1" split="true"/>
@@ -78,8 +79,8 @@
          length="3.4"
          sweep="24"
          taper="0.30">
-         <stall aoa="14" width="1" peak="1.5"/>
-         <flap0 start="0" end="1" lift="1.5" drag="1.9"/>
+         <stall aoa="16" width="1" peak="1.5"/>
+         <flap0 start="0" end="1" lift="1.3" drag="1.1"/>
 
          <control-input axis="/controls/flight/elevator" control="FLAP0" />
          <control-input axis="/controls/flight/elevator-trim" control="FLAP0"/>
@@ -92,8 +93,8 @@
          length="4.2" 
          taper="0.20"
          sweep="40">
-         <stall aoa="12" width="1" peak="1.5"/>
-         <flap0 start="0" end="1" lift="1.3" drag="1.5"/>
+         <stall aoa="14" width="1" peak="1.5"/>
+         <flap0 start="0" end="1" lift="1.2" drag="1.1"/>
 
          <control-input axis="/controls/flight/rudder" control="FLAP0" invert="true"/>
          <control-input axis="/controls/flight/rudder-trim" control="FLAP0" invert="true"/>
@@ -112,52 +113,58 @@
   -->
   <propeller x="2.890" y="2.885" z="-1.109"
              mass="336" 
-             moment="82" 
-             radius="1.27" 
-             cruise-speed="300" 
+             moment="41" 
+             radius="1.57" 
+             cruise-speed="278" 
              cruise-rpm="2000" 
              cruise-power="500" 
              cruise-alt="11000" 
              min-rpm="150" 
              max-rpm="2300"> 
              <actionpt x="3.926" y="2.885" z="-1.109"/>
+             <control-input axis="/controls/engines/engine[0]/propeller-pitch" control="ADVANCE"/>
              <turbine-engine eng-power="575" 
                              eng-rpm="2700" 
+                             displacement="1911"
+                             compression="8.5"
                              alt="11000" 
                              flat-rating="2200" 
                              min-n2="70" 
                              max-n2="100"
-                             bsfc="0.55"/>
-             <control-input axis="/controls/engines/engine[0]/throttle" control="THROTTLE"/>
-             <control-input axis="/controls/engines/engine[0]/condition" control="CONDLEVER"/>
-             <control-input axis="/controls/engines/engine[0]/starter" control="STARTER"/>
-             <control-input axis="/controls/engines/engine[0]/propeller-pitch" control="ADVANCE"/>
-             <control-input axis="/controls/engines/engine[0]/propeller-feather" control="PROPFEATHER"/>
+                             bsfc="0.55">
+                             <control-input axis="/controls/engines/engine[0]/throttle" control="THROTTLE"/>
+                             <control-input axis="/controls/engines/engine[0]/condition" control="CONDLEVER"/>
+                             <control-input axis="/controls/engines/engine[0]/starter" control="STARTER"/>
+                             <control-input axis="/controls/engines/engine[0]/propeller-feather" control="PROPFEATHER"/>
+             </turbine-engine>
   </propeller>
 
   <propeller x="2.890" y="-2.885" z="-1.109"
              mass="336" 
-             moment="82" 
-             radius="1.27" 
-             cruise-speed="300" 
+             moment="41" 
+             radius="1.57" 
+             cruise-speed="278" 
              cruise-rpm="2000" 
              cruise-power="500" 
              cruise-alt="11000" 
              min-rpm="150" 
              max-rpm="2300"> 
              <actionpt x="3.926" y="-2.885" z="-1.109"/>
+             <control-input axis="/controls/engines/engine[1]/propeller-pitch" control="ADVANCE"/>
              <turbine-engine eng-power="575" 
                              eng-rpm="2700" 
+                             displacement="1911"
+                             compression="8.5"
                              alt="11000" 
                              flat-rating="2200" 
                              min-n2="70" 
                              max-n2="100"
-                             bsfc="0.55"/>
-             <control-input axis="/controls/engines/engine[1]/throttle" control="THROTTLE"/>
-             <control-input axis="/controls/engines/engine[1]/condition" control="CONDLEVER"/>
-             <control-input axis="/controls/engines/engine[1]/starter" control="STARTER"/>
-             <control-input axis="/controls/engines/engine[1]/propeller-pitch" control="ADVANCE"/>
-             <control-input axis="/controls/engines/engine[1]/propeller-feather" control="PROPFEATHER"/>
+                             bsfc="0.55">
+                             <control-input axis="/controls/engines/engine[1]/throttle" control="THROTTLE"/>
+                             <control-input axis="/controls/engines/engine[1]/condition" control="CONDLEVER"/>
+                             <control-input axis="/controls/engines/engine[1]/starter" control="STARTER"/>
+                             <control-input axis="/controls/engines/engine[1]/propeller-feather" control="PROPFEATHER"/>
+             </turbine-engine>
   </propeller>
 
   <!-- Roue du nez -->
@@ -168,8 +175,10 @@
         damp="2">
         <control-input axis="/controls/flight/rudder" control="STEER" square="true" src0="-1.0" src1="1.0" dst0="-0.8" dst1="0.8"/>
         <control-input axis="/controls/gear/gear-down" control="EXTEND"/>
-        <control-speed control="EXTEND" transition-time="5"/>
+        
         <control-output control="EXTEND" prop="/gear/gear[0]/position-norm"/>
+        
+        <control-speed control="EXTEND" transition-time="5"/>
   </gear>
 
   <!-- Roue gauche -->
@@ -181,8 +190,10 @@
         <control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
         <control-input axis="/controls/gear/brake-left" control="BRAKE"/>
         <control-input axis="/controls/gear/gear-down" control="EXTEND"/>
-        <control-speed control="EXTEND" transition-time="7"/>
+        
         <control-output control="EXTEND" prop="/gear/gear[1]/position-norm"/>
+        
+        <control-speed control="EXTEND" transition-time="6"/>
   </gear>
 
   <!-- Roue droite -->
@@ -194,16 +205,18 @@
         <control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
         <control-input axis="/controls/gear/brake-right" control="BRAKE"/>
         <control-input axis="/controls/gear/gear-down" control="EXTEND"/>
-        <control-speed control="EXTEND" transition-time="7"/>
+        
         <control-output control="EXTEND" prop="/gear/gear[2]/position-norm"/>
+        
+        <control-speed control="EXTEND" transition-time="7"/>
   </gear>
 
-  <tank x="1.38" y=" 3" z="-1.092" capacity="4472"/>
-  <tank x="1.38" y="-3" z="-1.092" capacity="4472"/>
+  <tank x="1.58" y=" 3" z="-1.092" capacity="4472"/>
+  <tank x="1.58" y="-3" z="-1.092" capacity="4472"/>
 
-  <ballast x="3" y="-2.885" z="-2.109" mass="1700"/>
-  <ballast x="3" y=" 2.885" z="-2.109" mass="1700"/>
-
-  <ballast x="-3" y=" 0" z=" 3" mass="-1500"/>
+  <ballast x="3" y="-2.885" z="-1.109" mass="1700"/>
+  <ballast x="3" y=" 2.885" z="-1.109" mass="1700"/>
+  
+  <ballast x="6" y=" 0" z="-1" mass="200"/>
 
 </airplane>

@@ -1,4 +1,5 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
 <!--
   $Id: gps155.xml,v 1.1 2008/08/21 11:15:47 torsten Exp $
   Garmin GPS155 3d model
@@ -9,20 +10,32 @@
   $Log: gps155.xml,v $
   Revision 1.1  2008/08/21 11:15:47  torsten
   Added gps155 and gtx330 - nonfunctional
+  
+  Update for Metroliner : Helijah 2015
 
 -->
 <PropertyList>
+  
   <path>gps155.ac</path>
+  
+  <animation>
+    <object-name>gma340.Chassis</object-name>
+    <object-name>box</object-name>
+    <object-name>gma340.Knob.Right.Out</object-name>
+    <object-name>gma340.Knob.Right.Out2</object-name>
+    <object-name>gma340.Knob.Right.Inn</object-name>
+  </animation>
 
   <animation>
-    <type>noshadow</type>
+    <type>material</type>
+    <object-name>gma340.Chassis</object-name>
+    <emission>
+      <factor-prop>/controls/lighting/instruments-norm</factor-prop>
+      <red>   0.05 </red>
+      <green> 0.10 </green>
+      <blue>  0.05 </blue>
+    </emission>
   </animation>
-  <animation>
-    <type>range</type>
-    <min-m>0</min-m>
-    <max-m>10</max-m>
-  </animation>
-  
   
   <panel>
     <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/garmin/GNX-panel.xml</path>
@@ -43,11 +56,11 @@
     </top-left>
   </panel>
   
-    <panel>
+  <panel>
     <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/garmin/GNX-panel2.xml</path>
     <bottom-left>
       <x-m>  0.002 </x-m>
-      <y-m> 0.022 </y-m>
+      <y-m>  0.022 </y-m>
       <z-m> -0.018 </z-m>
     </bottom-left>
     <bottom-right>
@@ -57,21 +70,9 @@
     </bottom-right>
     <top-left>
       <x-m>  0.002 </x-m>
-      <y-m> 0.022 </y-m>
+      <y-m>  0.022 </y-m>
       <z-m>  0.043 </z-m>
     </top-left>
   </panel>
-
-  <animation>
-    <type>material</type>
-    <object-name>gma340.Chassis</object-name>
-
-    <emission>
-      <red>0.05</red>
-      <green>0.1.</green>
-      <blue>0.05</blue>
-      <factor-prop>/controls/lighting/instruments-norm</factor-prop>
-    </emission>
-  </animation>
 
 </PropertyList>

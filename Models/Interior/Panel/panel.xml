@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList>
 
@@ -20,233 +20,6 @@
     </offsets>
   </model>
 
-  <!-- GPS Stuff -->
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/garmin/gps155.xml</path>
-    <offsets>
-      <x-m> 0.244 </x-m>
-      <y-m> 0.100 </y-m>
-      <z-m> 0.050 </z-m>
-    </offsets>
-  </model>
-
-  <!--Radios-->
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/kx170b/kx170b.xml</path>
-    <offsets>
-      <x-m> 0.245 </x-m>
-      <y-m> 0.240 </y-m>
-      <z-m> 0.150 </z-m>
-    </offsets>
-  </model>
-  
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/WarnPanel/ctnpanel.xml</path>
-    <offsets>
-      <x-m> 0.25 </x-m>
-      <y-m> 0.00 </y-m>
-      <z-m> 0.15 </z-m>
-    </offsets>
-  </model>
-  
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/Empty/empty8.xml</path>
-    <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.120 </y-m>
-      <z-m>  0.150 </z-m>
-      <roll-deg>90</roll-deg>
-    </offsets>
-  </model>
-  
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/Empty/empty8.xml</path>
-    <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.041 </y-m>
-      <z-m>  0.150 </z-m>
-      <roll-deg>90</roll-deg>
-    </offsets>
-  </model>
-  
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/Empty/empty8.xml</path>
-    <offsets>
-      <x-m> 0.245 </x-m>
-      <y-m> 0.041 </y-m>
-      <z-m> 0.150 </z-m>
-      <roll-deg>90</roll-deg>
-    </offsets>
-  </model>
-  
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/Empty/empty8.xml</path>
-    <offsets>
-      <x-m> 0.245 </x-m>
-      <y-m> 0.120 </y-m>
-      <z-m> 0.150 </z-m>
-      <roll-deg>90</roll-deg>
-    </offsets>
-  </model>
-  
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/kx170b/kx170b.xml</path>
-    <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.240 </y-m>
-      <z-m>  0.150 </z-m>
-    </offsets>
-  </model>
-
-  <!-- Audio Panel removed until base panel is reengineered.
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/kx170b/audiopnl.xml</path>
-    <offsets>
-      <x-m> 0.245 </x-m>
-      <y-m> 0.383 </y-m>
-      <z-m> 0.130 </z-m>
-    </offsets>
-  </model>
-  
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/kx170b/audiopnl.xml</path>
-    <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.383 </y-m>
-      <z-m>  0.130 </z-m>
-    </offsets>
-  </model> -->
-      
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/aoa/aoa.xml</path>
-    <offsets>
-      <x-m> -0.04 </x-m>
-      <y-m> -0.24 </y-m>
-      <z-m>  0.21 </z-m>
-      <pitch-deg>-10</pitch-deg>
-    </offsets>
-  </model>
-  
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/comp/magcompass.xml</path>
-    <offsets>
-      <x-m>  0.40 </x-m>
-      <y-m> -0.00 </y-m>
-      <z-m>  0.60 </z-m>
-      <pitch-deg>30</pitch-deg>
-    </offsets>
-  </model>
-
-  <!-- AI -->
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/kfc200/ki256.xml</path>
-    <offsets>
-      <x-m> 0.25 </x-m>
-      <y-m> 0.45 </y-m>
-      <z-m> 0.05 </z-m>
-    </offsets>
-  </model>
-  
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/kfc200/ki256.xml</path>
-    <offsets>
-      <x-m>  0.25 </x-m>
-      <y-m> -0.45 </y-m>
-      <z-m>  0.05 </z-m>
-    </offsets>
-  </model>
-  
-  <!--  -->
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/kfc200/ki252a.xml</path>
-    <offsets>
-      <x-m>  0.250 </x-m>
-      <y-m> -0.450 </y-m>
-      <z-m> -0.049 </z-m>
-    </offsets>
-  </model>
-  
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/kfc200/ki252a.xml</path>
-    <offsets>
-      <x-m>  0.250 </x-m>
-      <y-m>  0.450 </y-m>
-      <z-m> -0.049 </z-m>
-    </offsets>
-  </model>
-  
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/alt/alt.xml</path>
-    <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.350 </y-m>
-      <z-m>  0.050 </z-m>
-    </offsets>
-  </model>
-  
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/uc/uc_warning.xml</path>
-    <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.280 </y-m>
-      <z-m>  0.050 </z-m>
-    </offsets>
-  </model>
-
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/alt/alt.xml</path>
-    <offsets>
-      <x-m> 0.245 </x-m>
-      <y-m> 0.550 </y-m>
-      <z-m> 0.050 </z-m>
-    </offsets>
-  </model>
-
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
-    <offsets>
-      <x-m>  0.243 </x-m>
-      <y-m>  0.550 </y-m>
-      <z-m> -0.050 </z-m>
-    </offsets>
-  </model>
-
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
-    <offsets>
-      <x-m>  0.243 </x-m>
-      <y-m> -0.350 </y-m>
-      <z-m> -0.050 </z-m>
-    </offsets>
-  </model>
-  
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/vor/vor.xml</path>
-    <offsets>
-      <x-m>  0.243 </x-m>
-      <y-m> -0.350 </y-m>
-      <z-m> -0.150 </z-m>
-    </offsets>
-  </model>
-
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/turn/turn.xml</path>
-    <offsets>
-      <x-m> 0.245 </x-m>
-      <y-m> -0.550 </y-m>
-      <z-m>  -0.15 </z-m>
-    </offsets>
-  </model>
-
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/turn/turn.xml</path>
-    <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m>  0.350 </y-m>
-      <z-m> -0.150 </z-m>
-    </offsets>
-  </model>
-  
   <model>
     <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/adf/ki227-01.xml</path>
     <offsets>
@@ -275,11 +48,39 @@
   </model>
   
   <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/vsi-st/vsist.xml</path>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/alt/alt.xml</path>
     <offsets>
-      <x-m>  0.25 </x-m>
-      <y-m> -0.64 </y-m>
-      <z-m> -0.14 </z-m>
+      <x-m>  0.244 </x-m>
+      <y-m> -0.350 </y-m>
+      <z-m>  0.050 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> 0.244 </x-m>
+      <y-m> 0.550 </y-m>
+      <z-m> 0.050 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/altalert/altalerter.xml</path>
+    <offsets>
+      <x-m>  0.244 </x-m>
+      <y-m> -0.060 </y-m>
+      <z-m>  0.090 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/aoa/aoa.xml</path>
+    <offsets>
+      <x-m> -0.04 </x-m>
+      <y-m> -0.24 </y-m>
+      <z-m>  0.21 </z-m>
+      <pitch-deg> -10 </pitch-deg>
     </offsets>
   </model>
   
@@ -304,6 +105,15 @@
   <model>
     <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/clock/clock.xml</path>
     <offsets>
+      <x-m>  0.244 </x-m>
+      <y-m> -0.650 </y-m>
+      <z-m>  0.020 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/clock/clock.xml</path>
+    <offsets>
       <x-m> 0.244 </x-m>
       <y-m> 0.650 </y-m>
       <z-m> 0.020 </z-m>
@@ -311,14 +121,213 @@
   </model>
   
   <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/clock/clock.xml</path>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/comp/magcompass.xml</path>
     <offsets>
-      <x-m>  0.244 </x-m>
-      <y-m> -0.650 </y-m>
-      <z-m>  0.020 </z-m>
+      <x-m> 0.40 </x-m>
+      <y-m> 0.00 </y-m>
+      <z-m> 0.60 </z-m>
+      <pitch-deg> 30 </pitch-deg>
     </offsets>
   </model>
   
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/Empty/empty8.xml</path>
+    <offsets>
+      <x-m>  0.245 </x-m>
+      <y-m> -0.120 </y-m>
+      <z-m>  0.150 </z-m>
+      <roll-deg> 90 </roll-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/Empty/empty8.xml</path>
+    <offsets>
+      <x-m>  0.245 </x-m>
+      <y-m> -0.041 </y-m>
+      <z-m>  0.150 </z-m>
+      <roll-deg> 90 </roll-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/Empty/empty8.xml</path>
+    <offsets>
+      <x-m> 0.245 </x-m>
+      <y-m> 0.041 </y-m>
+      <z-m> 0.150 </z-m>
+      <roll-deg> 90 </roll-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/Empty/empty8.xml</path>
+    <offsets>
+      <x-m> 0.245 </x-m>
+      <y-m> 0.120 </y-m>
+      <z-m> 0.150 </z-m>
+      <roll-deg> 90 </roll-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/Empty/empty2.xml</path>
+    <offsets>
+      <x-m>  0.245 </x-m>
+      <y-m> -0.185 </y-m>
+      <z-m>  0.102 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/fuel/fuel1.xml</path>
+    <offsets>
+      <x-m>  0.244 </x-m>
+      <y-m> -0.110 </y-m>
+      <z-m> -0.140 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/fuel/fuel2.xml</path>
+    <offsets>
+      <x-m>  0.244 </x-m>
+      <y-m> -0.050 </y-m>
+      <z-m> -0.140 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/fuelflow/fflow1.xml</path>
+    <offsets>
+      <x-m>  0.244 </x-m>
+      <y-m> -0.230 </y-m>
+      <z-m> -0.140 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/fuelflow/fflow2.xml</path>
+    <offsets>
+      <x-m>  0.244 </x-m>
+      <y-m> -0.170 </y-m>
+      <z-m> -0.140 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- GPS Stuff -->
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/garmin/gps155.xml</path>
+    <offsets>
+      <x-m> 0.244 </x-m>
+      <y-m> 0.100 </y-m>
+      <z-m> 0.050 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/hobbs/hobbs.xml</path>
+    <offsets>
+      <x-m>  0.244 </x-m>
+      <y-m> -0.230 </y-m>
+      <z-m> -0.190 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/itt/itt1.xml</path>
+    <offsets>
+      <x-m>  0.244 </x-m>
+      <y-m> -0.230 </y-m>
+      <z-m>  0.040 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/itt/itt2.xml</path>
+    <offsets>
+      <x-m>  0.244 </x-m>
+      <y-m> -0.170 </y-m>
+      <z-m>  0.040 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- AI -->
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/kfc200/ki256.xml</path>
+    <offsets>
+      <x-m> 0.244 </x-m>
+      <y-m> 0.450 </y-m>
+      <z-m> 0.050 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/kfc200/ki256.xml</path>
+    <offsets>
+      <x-m>  0.244 </x-m>
+      <y-m> -0.450 </y-m>
+      <z-m>  0.050 </z-m>
+    </offsets>
+  </model>
+  
+  <!--  -->
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/kfc200/ki252a.xml</path>
+    <offsets>
+      <x-m>  0.244 </x-m>
+      <y-m> -0.450 </y-m>
+      <z-m> -0.049 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/kfc200/ki252a.xml</path>
+    <offsets>
+      <x-m>  0.244 </x-m>
+      <y-m>  0.450 </y-m>
+      <z-m> -0.049 </z-m>
+    </offsets>
+  </model>
+  
+  <!--Radios-->
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/kx170b/kx170b.xml</path>
+    <offsets>
+      <x-m>  0.244 </x-m>
+      <y-m> -0.240 </y-m>
+      <z-m>  0.150 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/kx170b/kx170b.xml</path>
+    <offsets>
+      <x-m> 0.244 </x-m>
+      <y-m> 0.240 </y-m>
+      <z-m> 0.150 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Audio Panel removed until base panel is reengineered.
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/kx170b/audiopnl.xml</path>
+    <offsets>
+      <x-m> 0.245 </x-m>
+      <y-m> 0.383 </y-m>
+      <z-m> 0.130 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/kx170b/audiopnl.xml</path>
+    <offsets>
+      <x-m>  0.245 </x-m>
+      <y-m> -0.383 </y-m>
+      <z-m>  0.130 </z-m>
+    </offsets>
+  </model> -->
+      
   <model>
     <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/Marker/MarkerLights.xml</path>
     <offsets>
@@ -327,7 +336,81 @@
       <z-m>  0.050 </z-m>
     </offsets>
   </model>
-
+  
+  <!-- **************************************************************************** -->
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/mk-viii/warning0.xml</path>
+    <offsets>
+      <x-m>  0.245 </x-m>
+      <y-m> -0.240 </y-m>
+      <z-m>  0.078 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/mk-viii/caution0.xml</path>
+    <offsets>
+      <x-m>  0.245 </x-m>
+      <y-m> -0.220 </y-m>
+      <z-m>  0.078 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/mk-viii/glideslope-cancelled.xml</path>
+    <offsets>
+      <x-m>  0.245 </x-m>
+      <y-m> -0.200 </y-m>
+      <z-m>  0.078 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/mk-viii/inop.xml</path>
+    <offsets>
+      <x-m>  0.245 </x-m>
+      <y-m> -0.180 </y-m>
+      <z-m>  0.078 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- **************************************************************************** -->
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/oilp/oilp1.xml</path>
+    <offsets>
+      <x-m>  0.244 </x-m>
+      <y-m> -0.110 </y-m>
+      <z-m> -0.020 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/oilp/oilp2.xml</path>
+    <offsets>
+      <x-m>  0.244 </x-m>
+      <y-m> -0.050 </y-m>
+      <z-m> -0.020 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/rpm/rpm1.xml</path>
+    <offsets>
+      <x-m>  0.244 </x-m>
+      <y-m> -0.230 </y-m>
+      <z-m> -0.080 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/rpm/rpm2.xml</path>
+    <offsets>
+      <x-m>  0.244 </x-m>
+      <y-m> -0.170 </y-m>
+      <z-m> -0.080 </z-m>
+    </offsets>
+  </model>
+  
   <!--
   <model>
     <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/suction/suction.xml</path>
@@ -348,19 +431,19 @@
   </model> -->
   
   <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/itt/itt1.xml</path>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/thrust/thrust1.xml</path>
     <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.230 </y-m>
+      <x-m>  0.244 </x-m>
+      <y-m> -0.110 </y-m>
       <z-m>  0.040 </z-m>
     </offsets>
   </model>
-    
+  
   <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/itt/itt2.xml</path>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/thrust/thrust2.xml</path>
     <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.170 </y-m>
+      <x-m>  0.244 </x-m>
+      <y-m> -0.050 </y-m>
       <z-m>  0.040 </z-m>
     </offsets>
   </model>
@@ -368,192 +451,109 @@
   <model>
     <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/torque/torq1.xml</path>
     <offsets>
-      <x-m>  0.245 </x-m>
+      <x-m>  0.244 </x-m>
       <y-m> -0.230 </y-m>
       <z-m> -0.020 </z-m>
     </offsets>
   </model>
-    
+  
   <model>
     <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/torque/torq2.xml</path>
     <offsets>
-      <x-m>  0.245 </x-m>
+      <x-m>  0.244 </x-m>
       <y-m> -0.170 </y-m>
       <z-m> -0.020 </z-m>
     </offsets>
   </model>
-    
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/rpm/rpm1.xml</path>
-    <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.230 </y-m>
-      <z-m> -0.080 </z-m>
-    </offsets>
-  </model>
-    
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/rpm/rpm2.xml</path>
-    <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.170 </y-m>
-      <z-m> -0.080 </z-m>
-    </offsets>
-  </model>
-      
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/fuelflow/fflow1.xml</path>
-    <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.230 </y-m>
-      <z-m> -0.140 </z-m>
-    </offsets>
-  </model>
-    
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/fuelflow/fflow2.xml</path>
-    <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.170 </y-m>
-      <z-m> -0.140 </z-m>
-    </offsets>
-  </model>
-    
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/thrust/thrust1.xml</path>
-    <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.110 </y-m>
-      <z-m>  0.040 </z-m>
-    </offsets>
-  </model>
-    
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/thrust/thrust2.xml</path>
-    <offsets>
-      <x-m> 0.245 </x-m>
-      <y-m> -0.05 </y-m>
-      <z-m>  0.04 </z-m>
-    </offsets>
-  </model>
-    
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/oilp/oilp1.xml</path>
-    <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.110 </y-m>
-      <z-m> -0.020 </z-m>
-    </offsets>
-  </model>
-    
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/oilp/oilp2.xml</path>
-    <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.050 </y-m>
-      <z-m> -0.020 </z-m>
-    </offsets>
-  </model>
-
+  
   <model>
     <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/turb/n21.xml</path>
     <offsets>
-      <x-m>  0.245 </x-m>
+      <x-m>  0.244 </x-m>
       <y-m> -0.110 </y-m>
       <z-m> -0.080 </z-m>
     </offsets>
   </model>
-    
+  
   <model>
     <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/turb/n22.xml</path>
     <offsets>
-      <x-m>  0.245 </x-m>
+      <x-m>  0.244 </x-m>
       <y-m> -0.050 </y-m>
       <z-m> -0.080 </z-m>
     </offsets>
   </model>
-    
+  
   <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/fuel/fuel1.xml</path>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/turn/turn.xml</path>
     <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.110 </y-m>
+      <x-m>  0.244 </x-m>
+      <y-m> -0.550 </y-m>
+      <z-m> -0.150 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m>  0.244 </x-m>
+      <y-m>  0.350 </y-m>
+      <z-m> -0.150 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/uc/uc_warning.xml</path>
+    <offsets>
+      <x-m>  0.244 </x-m>
+      <y-m> -0.280 </y-m>
+      <z-m>  0.050 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/vor/vor.xml</path>
+    <offsets>
+      <x-m>  0.243 </x-m>
+      <y-m> -0.350 </y-m>
+      <z-m> -0.150 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m>  0.243 </x-m>
+      <y-m>  0.550 </y-m>
+      <z-m> -0.050 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m>  0.243 </x-m>
+      <y-m> -0.350 </y-m>
+      <z-m> -0.050 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/vsi-st/vsist.xml</path>
+    <offsets>
+      <x-m>  0.244 </x-m>
+      <y-m> -0.640 </y-m>
       <z-m> -0.140 </z-m>
     </offsets>
   </model>
-    
+  
   <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/fuel/fuel2.xml</path>
+    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/WarnPanel/ctnpanel.xml</path>
     <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.050 </y-m>
-      <z-m> -0.140 </z-m>
-    </offsets>
-  </model>
-     
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/hobbs/hobbs.xml</path>
-    <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.230 </y-m>
-      <z-m> -0.190 </z-m>
+      <x-m> 0.246 </x-m>
+      <y-m> 0.000 </y-m>
+      <z-m> 0.150 </z-m>
     </offsets>
   </model>
   
-  <model>
-    <path>Aircraft/Instruments-3d/mk-viii/warning0.xml</path>
-    <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.240 </y-m>
-      <z-m>  0.078 </z-m>
-    </offsets>
-  </model>
-
-  <model>
-    <path>Aircraft/Instruments-3d/mk-viii/caution0.xml</path>
-    <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.220 </y-m>
-      <z-m>  0.078 </z-m>
-    </offsets>
-  </model>
-
-  <model>
-    <path>Aircraft/Instruments-3d/mk-viii/glideslope-cancelled.xml</path>
-    <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.200 </y-m>
-      <z-m>  0.078 </z-m>
-    </offsets>
-  </model>
-
-  <model>
-    <path>Aircraft/Instruments-3d/mk-viii/inop.xml</path>
-    <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.180 </y-m>
-      <z-m>  0.078 </z-m>
-    </offsets>
-  </model>
-  
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/empty/empty2.xml</path>
-    <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.185 </y-m>
-      <z-m>  0.102 </z-m>
-    </offsets>
-  </model>
-
-  
-  <model>
-    <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/altalert/altalerter.xml</path>
-    <offsets>
-      <x-m>  0.245 </x-m>
-      <y-m> -0.060 </y-m>
-      <z-m>  0.090 </z-m>
-    </offsets>
-  </model>
-
 </PropertyList>
-

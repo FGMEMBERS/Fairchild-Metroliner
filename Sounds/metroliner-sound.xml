@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
- 
-<PropertyList>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
+<PropertyList>
+  
   <fx>
- 
+    
     <!-- Moteur 1 -->
     <crank>
       <name>engstart</name>
-      <path>Aircraft/Bombardier-415/Sounds/starter.wav</path>
+      <path>Aircraft/Fairchild-Metroliner/Sounds/starter.wav</path>
       <property>/engines/engine[0]/cranking</property>
       <volume> 
         <property>/orientation/alpha-deg</property>
@@ -22,11 +22,11 @@
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </crank>
-
+    
     <engine>
       <name>engine</name>
       <mode>looped</mode>
-      <path>Aircraft/Bombardier-415/Sounds/running.wav</path>
+      <path>Aircraft/Fairchild-Metroliner/Sounds/running.wav</path>
       <property>/engines/engine[0]/running</property>
       <volume> 
         <property>/orientation/alpha-deg</property>
@@ -41,11 +41,11 @@
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </engine>
-
+    
     <engine>
       <name>enginerun</name>
       <mode>looped</mode>
-      <path>Aircraft/Bombardier-415/Sounds/running.wav</path>
+      <path>Aircraft/Fairchild-Metroliner/Sounds/running.wav</path>
       <condition> 
         <property>/engines/engine[0]/running</property>
         <less-than> 
@@ -78,11 +78,11 @@
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </engine>
-
+    
     <!-- Moteur 2 -->
     <crank>
       <name>engstart</name>
-      <path>Aircraft/Bombardier-415/Sounds/starter.wav</path>
+      <path>Aircraft/Fairchild-Metroliner/Sounds/starter.wav</path>
       <property>/engines/engine[1]/cranking</property>
       <volume> 
         <property>/orientation/alpha-deg</property>
@@ -97,11 +97,11 @@
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </crank>
-
+    
     <engine>
       <name>engine</name>
       <mode>looped</mode>
-      <path>Aircraft/Bombardier-415/Sounds/running.wav</path>
+      <path>Aircraft/Fairchild-Metroliner/Sounds/running.wav</path>
       <property>/engines/engine[1]/running</property>
       <volume> 
         <property>/orientation/alpha-deg</property>
@@ -116,11 +116,11 @@
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </engine>
-
+    
     <engine>
       <name>enginerun</name>
       <mode>looped</mode>
-      <path>Aircraft/Bombardier-415/Sounds/running.wav</path>
+      <path>Aircraft/Fairchild-Metroliner/Sounds/running.wav</path>
       <condition> 
         <property>/engines/engine[1]/running</property>
         <less-than> 
@@ -153,7 +153,7 @@
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </engine>
-
+    
     <rumble>
       <name>rumble</name>
       <mode>looped</mode>
@@ -174,16 +174,16 @@
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </rumble>
-
+    
     <gear>
       <name>gear</name>
       <mode>in-transit</mode>
-      <path>Aircraft/Bombardier-415/Sounds/gear-up.wav</path>
+      <path>Aircraft/Fairchild-Metroliner/Sounds/gear-up.wav</path>
       <property>/gear/gear[0]/position-norm</property>
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </gear>
-
+    
     <gear>
       <name>gear-lock</name>
       <path>Sounds/gear-lck.wav</path>
@@ -196,7 +196,7 @@
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </gear>
-
+    
     <squeal>
       <name>squeal</name>
       <path>Sounds/squeal.wav</path>
@@ -231,11 +231,11 @@
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </squeal>
- 
+    
     <flap>
       <name>flaps</name>
       <mode>in-transit</mode>
-      <path>Aircraft/Bombardier-415/Sounds/flaps.wav</path>
+      <path>Aircraft/Fairchild-Metroliner/Sounds/flaps.wav</path>
       <property>/surface-positions/flap-pos-norm</property>
       <volume>
         <factor>0.2</factor>
@@ -243,11 +243,11 @@
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </flap>
-
+    
     <wind>
       <name>wind</name>
       <mode>looped</mode>
-      <path>Aircraft/Bombardier-415/Sounds/wind.wav</path>
+      <path>Aircraft/Fairchild-Metroliner/Sounds/wind.wav</path>
       <property>/velocities/airspeed-kt</property>
       <volume>
         <property>/velocities/airspeed-kt</property>
@@ -264,7 +264,7 @@
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </wind>
- 
+    
     <stall>
       <name>stall</name>
       <mode>looped</mode>
@@ -277,7 +277,7 @@
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </stall>
-  
+    
     <door>
       <name>Crew door</name>
       <path>Sounds/door_close.wav</path>
@@ -293,7 +293,7 @@
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </door>
-
+    
     <door>
       <name>Passenger door</name>
       <path>Sounds/door_close.wav</path>
@@ -309,11 +309,11 @@
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </door>
-
+    
     <rain>
       <name>rain</name>
       <mode>looped</mode>
-      <path>Aircraft/Bombardier-415/Sounds/rain_canopy.wav</path>
+      <path>Aircraft/Fairchild-Metroliner/Sounds/rain_canopy.wav</path>
       <condition>
         <greater-than>
           <property>/environment/metar/rain-norm</property>
@@ -335,7 +335,7 @@
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </rain>
-
+    
   </fx>
-
+  
 </PropertyList>

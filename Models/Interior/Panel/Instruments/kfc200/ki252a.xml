@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
 <!--
     KING KI-525A Pictorial Indicator
     Based on Syd Adams KI-525A
 -->
-
 <PropertyList>
 
   <path>ki252a.ac</path>
@@ -30,18 +30,12 @@
     <object-name>KI252a.vitre</object-name>
   </animation>
 
-  <animation>
-    <type>noshadow</type>
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/Fairchild-Metroliner/Models/Effects/Glass/glass</inherits-from>
     <object-name>KI252a.vitre</object-name>
-  </animation>
-
-  <animation>
-    <type>shader</type>
-    <shader>chrome</shader>
-    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
-    <object-name>KI252a.vitre</object-name>
-  </animation>
-
+  </effect>
+  
   <animation>
     <type>material</type>
     <object-name>KI252a.face</object-name>
@@ -57,10 +51,10 @@
     <object-name>KI252a.CRSknob</object-name>
     <object-name>KI252a.kfc-crs2</object-name>
     <emission>
+      <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
       <red>   0.50 </red>
       <green> 0.25 </green>
       <blue>  0.25 </blue>
-      <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
     </emission>
   </animation>
 
@@ -206,9 +200,9 @@
     <object-name>KI252a.CRSknob</object-name>
     <property>instrumentation/nav/radials/selected-deg</property>
     <center>
-      <x-m>  0.011 </x-m>
-      <y-m> -0.039 </y-m>
-      <z-m> -0.025 </z-m>
+      <x-m>  0.01135 </x-m>
+      <y-m> -0.03916 </y-m>
+      <z-m> -0.02491 </z-m>
     </center>
     <axis>
       <x> -1 </x>
@@ -282,9 +276,9 @@
     <object-name>KI252a.HDGknob</object-name>
         <property>instrumentation/heading-indicator/indicated-heading-deg</property>
     <center>
-      <x-m>  0.011 </x-m>
-      <y-m>  0.039 </y-m>
-      <z-m> -0.025 </z-m>
+      <x-m>  0.01135 </x-m>
+      <y-m>  0.03893 </y-m>
+      <z-m> -0.02491 </z-m>
     </center>
     <axis>
       <x> -1 </x>
@@ -354,4 +348,3 @@
   </animation>
 
 </PropertyList>
-

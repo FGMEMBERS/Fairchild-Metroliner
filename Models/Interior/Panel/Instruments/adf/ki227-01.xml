@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
 <!--  KI 227-01 
       ADF Heading Indicator -HSI driven compass card
       Based on Syd Adams  KI 227-01
 -->
-
 <PropertyList>
 
   <path>ki227.ac</path>
@@ -19,18 +18,12 @@
     <object-name>KI227.vitre</object-name>
   </animation>
 
-  <animation>
-    <type>noshadow</type>
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/Fairchild-Metroliner/Models/Effects/Glass/glass</inherits-from>
     <object-name>KI227.vitre</object-name>
-  </animation>
-
-  <animation>
-    <type>shader</type>
-    <shader>chrome</shader>
-    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
-    <object-name>KI227.vitre</object-name>
-  </animation>
-
+  </effect>
+  
   <animation>
     <type>material</type>
     <object-name>KI227.card</object-name>
@@ -49,7 +42,7 @@
     <type>rotate</type>
     <object-name>KI227.card</object-name>
     <property>instrumentation/heading-indicator/indicated-heading-deg</property>
-    <factor>-1</factor>
+    <factor> -1 </factor>
     <axis>
       <x> -1 </x>
       <y>  0 </y>
@@ -69,4 +62,3 @@
   </animation>
 
 </PropertyList>
-
