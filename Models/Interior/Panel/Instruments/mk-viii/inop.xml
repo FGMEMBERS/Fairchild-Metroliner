@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!--automatically generated, do not edit-->
+<PropertyList>
+  
+  <path>Aircraft/Fairchild-Metroliner/Models/Interior/Panel/Instruments/mk-viii/assembly/assembly.ac</path>
+  
+  <animation>
+    <object-name>base</object-name>
+    <object-name>lamp-on</object-name>
+    <object-name>lamp-off</object-name>
+    
+    <object-name>guard</object-name>
+  </animation>
+  
+  <animation>
+    <type>select</type>
+    <object-name>guard</object-name>
+    <condition>
+      <property>/null</property>
+    </condition>
+  </animation>
+  
+  <animation>
+    <type>material</type>
+    <object-name>lamp-off</object-name>
+    <texture>Textures/inop-off.png</texture>
+  </animation>
+  
+  <animation>
+    <type>material</type>
+    <object-name>lamp-on</object-name>
+    <texture>Textures/inop-on.png</texture>
+  </animation>
+  
+  <animation>
+    <type>select</type>
+    <object-name>lamp-off</object-name>
+    <condition>
+      <not>
+        <property>/instrumentation/mk-viii/outputs/discretes/gpws-inop</property>
+      </not>
+    </condition>
+  </animation>
+  
+  <animation>
+    <type>select</type>
+    <object-name>lamp-on</object-name>
+    <condition>
+      <property>/instrumentation/mk-viii/outputs/discretes/gpws-inop</property>
+    </condition>
+  </animation>
+  
+  <animation>
+    <type>material</type>
+    <object-name>lamp-off</object-name>
+    <emission>
+      <red-prop>/sim/mk-viii/assemblies/emission/red</red-prop>
+      <green-prop>/sim/mk-viii/assemblies/emission/green</green-prop>
+      <blue-prop>/sim/mk-viii/assemblies/emission/blue</blue-prop>
+      <factor-prop>/sim/mk-viii/assemblies/emission/factor</factor-prop>
+    </emission>
+  </animation>
+  
+</PropertyList>

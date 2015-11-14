@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+  
+  <attitude-indicator>
+    <config>
+      <tumble-flag archive="y" type="bool">true</tumble-flag>
+    </config>
+  </attitude-indicator>
+  <encoder>
+    <serviceable type="bool">true</serviceable>
+  </encoder>
+  <adf n="0">
+    <ident-audible type="bool">false</ident-audible>
+    <volume type="double">0.7</volume>
+  </adf>
+  <comm n="0">
+    <power-btn type="bool">1</power-btn>
+  </comm>
+  <nav n="0">
+    <volume type="double">0.7</volume>
+  </nav>
+  <comm n="1">
+    <power-btn type="bool">1</power-btn>
+  </comm>
+  <nav n="1">
+    <volume type="double">0.7</volume>
+  </nav>
+  <magnetic-compass>
+    <pitch-offset-deg type="double">-2.7</pitch-offset-deg>
+  </magnetic-compass>
+  
+</PropertyList>
