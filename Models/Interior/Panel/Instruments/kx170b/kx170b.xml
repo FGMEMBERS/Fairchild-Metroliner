@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList>
 
@@ -27,18 +27,12 @@
     <object-name>vitre</object-name>
   </animation>
 
-  <animation>
-    <type>noshadow</type>
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/Fairchild-Metroliner/Models/Effects/Glass/glass</inherits-from>
     <object-name>vitre</object-name>
-  </animation>
-
-  <animation>
-    <type>shader</type>
-    <shader>chrome</shader>
-    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
-    <object-name>vitre</object-name>
-  </animation>
-
+  </effect>
+  
   <animation>
     <type>material</type>
     <object-name>com_100</object-name>
@@ -53,10 +47,10 @@
     <object-name>nav_01</object-name>
     <object-name>nav_001</object-name>
     <emission>
+      <factor-prop>sim/model//material/instruments/factor</factor-prop>
       <red>   0.6 </red>
       <green> 0.6 </green>
       <blue>  0.7 </blue>
-      <factor-prop>sim/model//material/instruments/factor</factor-prop>
     </emission>
   </animation>
 
@@ -70,10 +64,10 @@
     <object-name>com_vol</object-name>
     <object-name>nav_vol</object-name>
     <emission>
+      <factor-prop>systems/electrical/outputs/cabin-lights</factor-prop>
       <red>   0.03 </red>
       <green> 0.03 </green>
       <blue>  0.02 </blue>
-      <factor-prop>systems/electrical/outputs/cabin-lights</factor-prop>
     </emission>
   </animation>
 
@@ -699,4 +693,3 @@
   </animation>
 
 </PropertyList>
-

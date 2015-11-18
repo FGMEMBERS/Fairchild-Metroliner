@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 
 <PropertyList>
+<<<<<<< HEAD
   <sim>
     <model>
       <livery>
@@ -19,11 +20,21 @@
           <blue>  0.5 </blue>
         </ambient>
 -->
+=======
+  
+  <sim>
+    
+    <model>
+      <livery>
+        <name type="string">Ostfriesische Lufttransport</name>
+        <texture>Liveries/1024x1024/OLT.png</texture>
+>>>>>>> svn/master
         <specular>
           <red>   0 </red>
           <green> 0 </green>
           <blue>  0 </blue>
         </specular>
+<<<<<<< HEAD
 
         <emission>
           <red>   0 </red>
@@ -40,4 +51,11 @@
       </livery>
     </model>
   </sim>
+=======
+      </livery>
+    </model>
+    
+  </sim>
+  
+>>>>>>> svn/master
 </PropertyList>

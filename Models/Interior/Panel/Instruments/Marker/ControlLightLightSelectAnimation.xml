@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+  
+  <type>select</type>
+  <object-name>Light</object-name>
+  <condition>
+    <or>
+      <property alias="../../../../params/value"/>
+      <property alias="../../../../params/test"/>
+    </or>
+  </condition>
+  
+</PropertyList>

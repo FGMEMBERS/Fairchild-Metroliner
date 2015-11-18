@@ -1,18 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
-<!--
-    Syd Adams
-    Primus 1000 PFD  messages
--->
+<!-- Syd Adams Primus 1000 PFD  messages -->
 <PropertyList>
-
+  
   <name>PFD text</name>
   <w-base>500</w-base>
   <h-base>256</h-base>
   <w>500</w>
   <h>256</h>
-
+  
   <layers>
+    
     <layer>
       <name>WP1</name>
       <condition>
@@ -30,10 +28,10 @@
         <blue>  0.2 </blue>
       </color>
       <chunks>
-      <chunk>
-      <type>literal</type>
-      <text>-> </text>
-      </chunk>
+        <chunk>
+          <type>literal</type>
+          <text>-> </text>
+        </chunk>
         <chunk>
           <type>text-value</type>
           <property>autopilot/route-manager/route/wp/id</property>
@@ -50,7 +48,7 @@
         </transformation>
       </transformations>
     </layer>
-         
+      
     <layer>
       <name>WP2</name>
       <condition>
@@ -84,7 +82,7 @@
         </transformation>
       </transformations>
     </layer>
-
+      
     <layer>
       <name>WP3</name>
       <condition>
@@ -104,7 +102,7 @@
       <chunks>
         <chunk>
           <type>text-value</type>
-        <property>autopilot/route-manager/wp/dist</property>
+          <property>autopilot/route-manager/wp/dist</property>
         </chunk>
       </chunks>
       <transformations>
@@ -115,9 +113,11 @@
         <transformation>
           <type>y-shift</type>
           <offset>10</offset>
-            </transformation>
+        </transformation>
       </transformations>
     </layer>
+    
   </layers>
-
+    
 </PropertyList>
+  

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList>
-
+  
   <path>asi.ac</path>
-
+  
   <animation>
     <object-name>ASI.fond</object-name>
     <object-name>ASI.face</object-name>
@@ -11,22 +11,16 @@
     <object-name>ASI.needle1</object-name>
     <object-name>index.pointer1</object-name>
     <object-name>index.pointer2</object-name>
-
+    
     <object-name>ASI.vitre</object-name>
   </animation>
-
-  <animation>
-    <type>noshadow</type>
+  
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/Fairchild-Metroliner/Models/Effects/Glass/glass</inherits-from>
     <object-name>ASI.vitre</object-name>
-  </animation>
-
-  <animation>
-    <type>shader</type>
-    <shader>chrome</shader>
-    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
-    <object-name>ASI.vitre</object-name>
-  </animation>
-
+  </effect>
+  
   <animation>
     <type>material</type>
     <object-name>ASI.face</object-name>
@@ -41,7 +35,7 @@
       <blue>  0.25 </blue>
     </emission>
   </animation>
-
+  
   <animation>
     <type>rotate</type>
     <object-name>ASI.needle1</object-name>
@@ -58,19 +52,19 @@
       <z>  0 </z>
     </axis>
   </animation>
-
+  
   <animation>
     <type>rotate</type>
     <object-name>ASI.needle</object-name>
     <property>instrumentation/airspeed-indicator/indicated-speed-kt</property>
     <interpolation>
-        <entry><ind>   0 </ind><dep>   0 </dep></entry>
-        <entry><ind>  30 </ind><dep>   0 </dep></entry>
-        <entry><ind>  40 </ind><dep>  10 </dep></entry>
-        <entry><ind> 100 </ind><dep>  88 </dep></entry>
-        <entry><ind> 170 </ind><dep> 178 </dep></entry>
-        <entry><ind> 240 </ind><dep> 268 </dep></entry>
-        <entry><ind> 300 </ind><dep> 333 </dep></entry>
+      <entry><ind>   0 </ind><dep>   0 </dep></entry>
+      <entry><ind>  30 </ind><dep>   0 </dep></entry>
+      <entry><ind>  40 </ind><dep>  10 </dep></entry>
+      <entry><ind> 100 </ind><dep>  88 </dep></entry>
+      <entry><ind> 170 </ind><dep> 178 </dep></entry>
+      <entry><ind> 240 </ind><dep> 268 </dep></entry>
+      <entry><ind> 300 </ind><dep> 333 </dep></entry>
     </interpolation>
     <axis>
       <x> -1 </x>
@@ -78,7 +72,7 @@
       <z>  0 </z>
     </axis>
   </animation>
-
+  
   <animation>
     <type>rotate</type>
     <object-name>index.pointer1</object-name>
@@ -98,7 +92,7 @@
       <z>  0 </z>
     </axis>
   </animation>
-
+  
   <animation>
     <type>rotate</type>
     <object-name>index.pointer2</object-name>
@@ -118,6 +112,5 @@
       <z>  0 </z>
     </axis>
   </animation>
-
+  
 </PropertyList>
-
