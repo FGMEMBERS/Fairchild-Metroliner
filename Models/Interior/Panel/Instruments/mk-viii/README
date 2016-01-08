@@ -5,16 +5,16 @@ Aircraft/b1900d/Models/b1900d-anim.xml for an example), and by setting
 /sim/mk-viii/assemblies/emission/* to off-state emission values, for
 instance:
 
-	<sim>
-	  <mk-viii>
-	    <assemblies>
-	      <emission>
-		<red>0.5</red>
-		<green>0.5</green>
-		<blue>0.5</blue>
-		<factor alias="/controls/lighting/instruments-norm"/>
-	     </emission>
-	  </mk-viii>
-	</sim>
+  <sim>
+    <mk-viii>
+      <assemblies>
+        <emission>
+         <factor alias="/controls/lighting/instruments-norm"/>
+         <red>   0.5 </red>
+         <green> 0.5 </green>
+         <blue>  0.5 </blue>
+       </emission>
+    </mk-viii>
+  </sim>
 
 Author: Jean-Yves Lefort <jylefort@FreeBSD.org>
